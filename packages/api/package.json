@@ -1,0 +1,32 @@
+{
+  "name": "@poc-iframe/api",
+  "version": "1.0.0",
+  "description": "poc iframe api",
+  "type": "module",
+  "main": "./dist/app.js",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "start": "fastify start -l info dist/app.js",
+    "dev": "fastify start -V -w -l debug -P dist/app.js"
+  },
+  "author": "naybnet",
+  "license": "MIT",
+  "dependencies": {
+    "@fastify/autoload": "^5.7.1",
+    "@fastify/compress": "^6.4.0",
+    "@fastify/cors": "^8.3.0",
+    "@fastify/csrf-protection": "^6.3.0",
+    "@fastify/env": "^4.2.0",
+    "@fastify/helmet": "^11.0.0",
+    "@fastify/sensible": "^5.2.0",
+    "@fastify/under-pressure": "^8.3.0",
+    "@poc-iframe/data": "workspace:^",
+    "fastify": "^4.19.2",
+    "fastify-cli": "^5.7.1",
+    "fastify-plugin": "^4.5.0"
+  },
+  "devDependencies": {
+    "json-schema-to-ts": "^2.9.1"
+  }
+}

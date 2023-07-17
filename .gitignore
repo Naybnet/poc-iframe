@@ -1,0 +1,14 @@
+# Logs
+logs
+*.log
+.pnpm-debug.log*
+
+# DS files
+.DS_Store
+
+node_modules
+dist
+out
+lib
+
+.env*

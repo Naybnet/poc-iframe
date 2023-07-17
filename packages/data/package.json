@@ -1,0 +1,12 @@
+{
+  "name": "@poc-iframe/data",
+  "version": "1.0.0",
+  "description": "poc iframe hard coded data",
+  "type": "module",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "naybnet",
+  "license": "MIT"
+}

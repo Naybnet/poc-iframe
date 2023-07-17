@@ -1,0 +1,24 @@
+{
+  "name": "poc-iframe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm --stream -r build",
+    "dev": "pnpm --stream -r dev"
+  },
+  "keywords": [],
+  "author": "naybnet",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.39.7",
+    "@types/node": "^18.16.19",
+    "eslint": "^8.44.0",
+    "typescript": "^5.1.6"
+  },
+  "engines": {
+    "node": "18",
+    "pnpm": "8"
+  }
+}
